@@ -16,11 +16,11 @@ export default function Home() {
           />
         </div>
 
-        <div className="flex flex-col items-center gap-5 text-center max-w-lg px-6">
-<p className="text-white/70 text-lg font-light tracking-wide">
+        <div className="flex flex-col items-center gap-5 text-center w-screen px-6">
+          <p className="text-white/70 text-base sm:text-lg font-light tracking-wide whitespace-nowrap">
             La salud está a punto de cambiar para siempre.
           </p>
-          <p className="text-white/90 text-sm font-semibold tracking-[0.25em] uppercase">
+          <p className="text-white/90 text-xs sm:text-sm font-semibold tracking-[0.2em] uppercase whitespace-nowrap">
             Bienvenidos a la Nueva Era.
           </p>
         </div>
