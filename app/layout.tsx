@@ -9,9 +9,20 @@ const geist = Geist({
 
 export const metadata: Metadata = {
   title: "MediClub — Próximamente",
-  description: "La plataforma de telemedicina que Chile necesita. En construcción.",
+  description: "La salud está a punto de cambiar para siempre. Bienvenidos a la Nueva Era.",
   icons: {
     icon: "/trasnparente.png",
+  },
+  openGraph: {
+    title: "MediClub — Próximamente",
+    description: "La salud está a punto de cambiar para siempre. Bienvenidos a la Nueva Era.",
+    images: [{ url: "/mediclub.png" }],
+  },
+  twitter: {
+    card: "summary",
+    title: "MediClub — Próximamente",
+    description: "La salud está a punto de cambiar para siempre. Bienvenidos a la Nueva Era.",
+    images: ["/mediclub.png"],
   },
 };
 
